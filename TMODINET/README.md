@@ -12,6 +12,6 @@ Overview of TMODINET. \
 *models.py*: TMODINET model\
 *train_test.py*: Training and testing functions\
 *layers.py*: Supporting functions\
-*utils.py*: Supporting functions\
+*utils.py*: Supporting functions
   
 
