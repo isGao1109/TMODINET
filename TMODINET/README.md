@@ -11,7 +11,7 @@ Overview of TMODINET. \
 *main.py*: Examples of TMODINET for classification tasks\
 *models.py*: TMODINET model\
 *train_test.py*: Training and testing functions\
-*layers.py*、*utils.py*、*contrastive_loss*: Supporting functions
+*layers.py*、*utils.py*、*contrastive_loss.py*: Supporting functions
 
   
 
