@@ -10,6 +10,8 @@ Overview of TMODINET. \
 ## Files
 *main.py*: Examples of TMODINET for classification tasks\
 *models.py*: TMODINET model\
-*train_test.py*: Training and testing functions
+*train_test.py*: Training and testing functions\
+*layers.py*: Supporting functions\
+*utils.py*: Supporting functions\
   
 
