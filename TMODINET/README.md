@@ -1,18 +1,15 @@
-# MOGONET: Multi-omics Integration via Graph Convolutional Networks for Biomedical Data Classification
-Tongxin Wang\*, Wei Shao\*, Zhi Huang, Haixu Tang, Jie Zhang, Zhengming Ding, and Kun Huang
+# TMODINET: A Trustworthy Multi-Omics Dynamic Learning Integration Network for Cancer Diagnostic
+Ling Du, Peipei Gao, Zhuang Liu, Nan Yin, and Xiaochao Wang
 
-MOGONET (Multi-Omics Graph cOnvolutional NETworks) is a novel multi-omics data integrative analysis framework for classification tasks in biomedical applications.
+TMODINET is a trustworthy multi-omics dynamic learning framework for cancer diagnostic.
 
 ![MOGONET](https://github.com/txWang/MOGONET/blob/master/MOGONET.png?raw=true "MOGONET")
-Overview of MOGONET. \
-<sup>Illustration of MOGONET. MOGONET combines GCN for multi-omics specific learning and VCDN for multi-omics integration. MOGONET combines GCN for multi-omics specific learning and VCDN for multi-omics integration. For clear and concise illustration, an example of one sample is chosen to demonstrate the VCDN component for multi-omics integration. Pre-processing is first performed on each omics data type to remove noise and redundant features. Each omics-specific GCN is trained to perform class prediction using omics features and the corresponding sample similarity network generated from the omics data. The cross-omics discovery tensor is calculated from the initial predictions of omics-specific GCNs and forwarded to VCDN for final prediction. MOGONET is an end-to-end model and all networks are trained jointly.<sup>
+Overview of TMODINET. \
+<sup>Framework of TMODINET. (a) The whole framework of the model. TMODINET is a trusted framework based on dynamic learning that integrates multiple omics data for cancer diagnosis. (b) Modality Dynamic Learning Module based on a single-peak classifier. Triple contrastive learning is used to learn comparisons between multiple omics and achieve inter-omics alignment. Modality confidence learning assigns different weights to omics to indicate their different contributions to the final result. (c.FDLM) Feature Dynamic Learning Module allocates sample adaptive weights to each feature instead of relying on fixed weight vectors. (c.GDLM) Graph Dynamic Learning Module can adjust the structure of the graph adaptively according to the classification results and realize the dynamic graph structure for specific graph convolutional networks (GCN) learning.<sup>
 
 ## Files
-*main_mogonet.py*: Examples of MOGONET for classification tasks\
-*main_biomarker.py*: Examples for identifying biomarkers\
-*models.py*: MOGONET model\
+*main.py*: Examples of TMODINET for classification tasks\
+*models.py*: TMODINET model\
 *train_test.py*: Training and testing functions\
-*feat_importance.py*: Feature importance functions\
-*utils.py*: Supporting functions    
+  
 
-\* Equal contribution
