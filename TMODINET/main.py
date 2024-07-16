@@ -13,11 +13,11 @@ if __name__ == "__main__":
     lr_e = 5e-4
     lr_c = 1e-3
 
-    theta_smooth = 1
+    theta_smooth = 0.8
     theta_degree = 0.8
     theta_sparsity = 0.5
     reg = 0.001
-    neta = 0.2
+    neta = 0.01
     
     if data_folder == 'ROSMAP':
         num_class = 2
